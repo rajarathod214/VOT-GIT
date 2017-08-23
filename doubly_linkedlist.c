@@ -79,7 +79,8 @@ while(1)
 {
 
 	printf("\t\n ***********DLL**********\n");
-	printf("\t 1] Create\n\t 2] Display\n\t 3] Exit\t\n");
+	printf("\t 1] Create\n\t 2] Display\n\t 3] Exit");
+	printf("\t\n ***********DLL**********\n");
 	printf("\n Enter your choice:");
 	scanf("%d",&choice);
 
