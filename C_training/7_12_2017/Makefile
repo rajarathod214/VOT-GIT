@@ -1,0 +1,5 @@
+all:1_user_input_print_with_addresses 2_find_largest_smallest_array_element 16_insert_element_into_array 17_remove_array_element_user_input
+
+clean:
+	rm 1_user_input_print_with_addresses 2_find_largest_smallest_array_element 16_insert_element_into_array 17_remove_array_element_user_input
+

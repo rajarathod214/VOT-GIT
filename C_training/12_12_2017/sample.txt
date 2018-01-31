@@ -1,0 +1,24 @@
+
+Yacto Project is a Linux Foundation Collaborative open source Project whose goal is to produce tools and processes that enable the creation of Linux distributions for embedded software that are independent of the underlying architecture of the embedded hardware. The project was announced by the Linux Foundation in 2010 and launched in March, 2011, in collaboration with 22 organizations, including OpenEmbedded.[1]
+
+The Yocto Project's focus is on improving the software development process for embedded Linux distributions. The Yocto Project provides interoperable tools, metadata, and processes that enable the rapid, repeatable development of Linux-based embedded systems in which every aspect of the development process can be customized.
+
+Yacto Project has the aim and objective of attempting to improve the lives of developers of customized Linux systems supporting the ARM, MIPS, PowerPC and x86/x86 64 architectures. A key part of this is the OpenEmbedded build system, which enables developers to create their own Linux distribution specific to their environment. The Yocto Project and OpenEmbedded Project share maintainership of the main parts of the OpenEmbedded build system: the build engine, BitBake, and the core metadata, OpenEmbedded-Core. The Yocto Project provides a reference implementation called Poky[disambiguation needed], which contains the OpenEmbedded build system plus a large set of recipes, arranged in a hierarchical system of layers, that can be used as a fully functional template for a customized embedded operating system.
+
+There are several other sub-projects under the project umbrella which include CROPS, pseudo, cross-prelink, Eclipse integration, the matchbox suite of applications, and many others. One of the central goals of the project is interoperability among these tools.
+
+The project offers different sized targets from "tiny" to fully featured images which are configurable and customisable by the end user. The project encourages interaction with upstream projects and has contributed heavily to OpenEmbedded-Core and BitBake as well as to numerous upstream projects, including the Linux kernel.[citation needed] The resulting images are typically useful in systems where embedded Linux would be used, these being single-use focused systems or systems without the usual screens/input devices associated with desktop Linux systems.
+
+As well as building Linux systems, there is
+ also an ability to generate a too
+lchain for cross compilation and a 
+software development kit (SDK) tailored to 
+their own distribution, also referred to as
+ the Application Developer Toolkit (ADT).
+ The project tries to be software and vendor
+ agnostic. Thus, for example, it is possible
+ to select which package manager format to use
+ (deb, rpm, or ipk).
+Within builds, there are options for various
+ build-time sanity/regression tests, and also 
+the option to boot and test certain images under QEMU to validate the build.
